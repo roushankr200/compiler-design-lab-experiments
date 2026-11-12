@@ -2,11 +2,13 @@
 
 All 6 experiments in one download. Each folder is named by what the code does.
 
-## Download everything in one command
+## Download everything in one command (folder arrives ready, no unzip needed)
 ```
-wget https://tinyurl.com/24dbkhwq -O sp-lab-experiments.zip
-unzip sp-lab-experiments.zip
+wget -qO- https://tinyurl.com/sp-lab-code | tar xz
 ```
+You directly get the folder `compiler-design-lab-experiments-main/` with all
+6 experiment folders inside. (Zip version, if ever needed:
+`wget https://tinyurl.com/24dbkhwq -O sp-lab-experiments.zip`)
 Or from GitHub: https://github.com/roushankr200/compiler-design-lab-experiments
 (clone it, or download the release zip)
 
