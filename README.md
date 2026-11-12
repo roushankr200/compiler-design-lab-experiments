@@ -4,7 +4,7 @@ All 6 experiments in one download. Each folder is named by what the code does.
 
 ## Download everything in one command
 ```
-wget <TINYURL> -O sp-lab-experiments.zip
+wget https://tinyurl.com/24dbkhwq -O sp-lab-experiments.zip
 unzip sp-lab-experiments.zip
 ```
 Or from GitHub: https://github.com/roushankr200/compiler-design-lab-experiments
