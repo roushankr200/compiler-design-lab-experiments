@@ -7,8 +7,13 @@ All 6 experiments in one download. Each folder is named by what the code does.
 wget -qO- https://tinyurl.com/sp-lab-code | tar xz
 ```
 You directly get the folder `compiler-design-lab-experiments-main/` with all
-6 experiment folders inside. (Zip version, if ever needed:
-`wget https://tinyurl.com/24dbkhwq -O sp-lab-experiments.zip`)
+6 experiment folders inside.
+
+**On Windows (PowerShell)** - PowerShell's `wget` is not the real wget, use:
+```
+iwr tinyurl.com/splab-win -OutFile c.zip; Expand-Archive c.zip -Force
+```
+Same result: the folder `compiler-design-lab-experiments-main/` appears.
 Or from GitHub: https://github.com/roushankr200/compiler-design-lab-experiments
 (clone it, or download the release zip)
 
