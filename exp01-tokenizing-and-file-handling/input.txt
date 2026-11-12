@@ -1,0 +1,7 @@
+Compiler design is interesting
+
+A lexical analyzer reads characters
+and converts them into tokens
+
+Tokens are keywords identifiers
+operators literals and delimiters
